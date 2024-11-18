@@ -5613,6 +5613,11 @@ section.section6 .container .contentInfo .contentText h4 {
     width: 103px;
     bottom: 50px;
   }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__body__item:nth-child(1) {
+    display: none;
+  }
 }
 
 .portlet[data-portlet="landing-fullclaro"]
