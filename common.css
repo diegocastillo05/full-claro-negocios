@@ -1092,6 +1092,7 @@ body {
     .section[data-section="data-section"]
     .fullClaro__features__item {
     max-width: 214px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -1235,15 +1236,18 @@ body {
     padding-top: 2px;
   }
 }
+
 .portlet[data-portlet="landing-fullclaro"]
   .section[data-section="data-section"]
   .fullClaro__features__item
   .subtitle
   strong {
+  /*
   font-family: "AMX-Bold";
-  font-size: 32px;
+  font-size: 32px;*/
   white-space: nowrap;
 }
+/*
 @media screen and (max-width: 1440px) {
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
@@ -1261,7 +1265,7 @@ body {
     strong {
     font-size: 20px;
   }
-}
+}*/
 @media screen and (max-width: 700px) {
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
@@ -1457,8 +1461,9 @@ body {
     .section[data-section="data-section"]
     .fullClaro__features__item:nth-child(3)
     .ico {
-    max-width: 85px;
-    top: -34px;
+    /*max-width: 85px;*/
+    top: -43px;
+    right: -13px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1466,8 +1471,8 @@ body {
     .section[data-section="data-section"]
     .fullClaro__features__item:nth-child(3)
     .ico {
-    right: 19px;
-    top: -31px;
+    /*right: 19px;*/
+    /*top: -31px;*/
     max-width: 76px;
   }
 }
@@ -1492,6 +1497,7 @@ body {
     left: 73px;
   }
 }
+/*
 @media screen and (max-width: 1024px) {
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
@@ -1501,6 +1507,7 @@ body {
     left: 48px;
   }
 }
+*/
 @media screen and (max-width: 480px) {
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
@@ -1523,7 +1530,7 @@ body {
     .fullClaro__features__item:nth-child(4)
     .ico {
     max-width: 140px;
-    top: -50px;
+    top: -64px;
     right: 10px;
   }
 }
@@ -1532,9 +1539,9 @@ body {
     .section[data-section="data-section"]
     .fullClaro__features__item:nth-child(4)
     .ico {
-    max-width: 85px;
-    top: -26px;
-    right: 14px;
+    /*max-width: 85px;*/
+    top: -45px;
+    right: -28px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -3814,12 +3821,55 @@ section.section6 .container .contentInfo .contentText h4 {
     top: 46px;
     left: 96px;
   }
+  /*
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
     .fullClaro__features__item:nth-child(2) {
     position: relative;
     top: 28px;
     left: 358px;
+  }
+    */
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(2) {
+    position: relative;
+    top: -59px;
+    left: -207px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(3) {
+    position: relative;
+    top: -177px;
+    left: 810px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(4) {
+    position: relative;
+    top: -17px;
+    left: 386px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(3) {
+    position: relative;
+    top: -161px;
+    left: 731px;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(3) {
+    position: relative;
+    top: -157px;
+    left: 712px;
   }
 }
 @media (max-width: 1500px) {
@@ -3871,8 +3921,8 @@ section.section6 .container .contentInfo .contentText h4 {
     .section[data-section="data-section"]
     .fullClaro__features__item:nth-child(2) {
     position: relative;
-    top: 28px;
-    left: 314px;
+    top: -65px;
+    left: -176px;
   }
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
@@ -3977,6 +4027,13 @@ section.section6 .container .contentInfo .contentText h4 {
   }
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(2) {
+    position: relative;
+    top: -34px;
+    left: -167px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
     .fullClaro__whocan {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -4009,6 +4066,7 @@ section.section6 .container .contentInfo .contentText h4 {
 @media (max-width: 1160px) {
   .portlet[data-portlet="landing-fullclaro"]::before {
     background-image: url("https://static.claro.com.pe/landings/havas/2024/fullclaro-negocios/assets/bg_degraded_tablet2.png");
+
     background-size: 1200px;
     top: -86px;
   }
@@ -4029,6 +4087,51 @@ section.section6 .container .contentInfo .contentText h4 {
     .section[data-section="data-section"]
     .fullClaro__head {
     padding-top: 80px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features {
+    justify-items: center;
+    row-gap: 76px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(1),
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(3) {
+    top: 0px;
+    left: -33px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(2),
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(4) {
+    top: 0px;
+    left: 42px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(4)
+    .ico {
+    top: -64px;
+    right: -5px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features {
+    padding-bottom: 100px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(4)
+    .ico {
+    top: -54px;
+    right: -22px;
   }
 }
 @media (max-width: 1100px) {
@@ -4122,11 +4225,13 @@ section.section6 .container .contentInfo .contentText h4 {
     .ico {
     top: -43px;
   }
+  /*
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
     .fullClaro__features__item:nth-child(1) {
     left: 62px;
   }
+    */
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
     .fullClaro__features__item:nth-child(2)
@@ -4135,13 +4240,14 @@ section.section6 .container .contentInfo .contentText h4 {
     max-width: 130px;
     top: -39px;
   }
+  /*
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
     .fullClaro__features__item:nth-child(2) {
     position: relative;
     top: 10px;
     left: 144px;
-  }
+  }*/
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
     .fullClaro__whocan__title {
@@ -4337,6 +4443,7 @@ section.section6 .container .contentInfo .contentText h4 {
     background-size: 768px;
     top: 0;
   }
+  /*
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
     .fullClaro__features__item:nth-child(1) {
@@ -4348,7 +4455,7 @@ section.section6 .container .contentInfo .contentText h4 {
     .fullClaro__features__item:nth-child(2) {
     top: -2px;
     left: 98px;
-  }
+  }*/
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
     .fullClaro__body__item:nth-child(3) {
@@ -4485,6 +4592,7 @@ section.section6 .container .contentInfo .contentText h4 {
     max-width: 100%;
   }
 }
+/*
 @media (max-width: 730px) {
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
@@ -4492,23 +4600,43 @@ section.section6 .container .contentInfo .contentText h4 {
     left: 12px;
     top: -2px;
   }
-}
+}*/
 @media (max-width: 700px) {
   section.section3 img.full {
     right: -250px;
   }
   .portlet[data-portlet="landing-fullclaro"]::before {
     background-image: url("https://static.claro.com.pe/landings/havas/2024/fullclaro-negocios/assets/bg_degraded_mobile2.png");
+    background-image: url("https://www.claro.com.pe/assets/havas/landing-fullclaronegocios/assets/bg_degraded_mobile2v2.png");
   }
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
     .fullClaro__features {
     -ms-grid-columns: 1fr 10% 1fr;
     grid-template-columns: 1fr 1fr;
-    row-gap: 50px;
+    row-gap: 76px;
     -webkit-column-gap: 10%;
     -moz-column-gap: 10%;
     column-gap: 10%;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(4) {
+    top: 0px;
+    left: 0px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(4)
+    .ico {
+    top: -54px;
+    right: -10px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(3) {
+    top: 0px;
+    left: 0px;
   }
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
@@ -5367,6 +5495,11 @@ section.section6 .container .contentInfo .contentText h4 {
   .sectionheroCards .content {
     margin-top: 55px;
   }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features {
+    padding-bottom: 48px !important;
+  }
 }
 
 @media (max-width: 900px) {
@@ -5407,6 +5540,85 @@ section.section6 .container .contentInfo .contentText h4 {
   .sectionheroCards .container .swiper {
     padding: 0 30px;
   }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(3)
+    .ico,
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(4)
+    .ico {
+    max-width: 100px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features__item:nth-child(4)
+    .ico {
+    top: -40px;
+    right: -10px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features {
+    padding-bottom: 0;
+    row-gap: 65px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__features {
+    padding-bottom: 0px !important;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__head__title {
+    font-size: 24px;
+    margin: 0 auto;
+    max-width: 310px;
+    text-align: center;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__head__title
+    img {
+    max-width: 150px;
+    margin-top: 8px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]::before {
+    background-size: 500px;
+    top: -56px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__body__item:nth-child(2) {
+    height: 369px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__body__item__laptop {
+    right: -41px;
+    width: 76px;
+    top: 23px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__body__item__popcorn {
+    right: -11px;
+    width: 103px;
+    bottom: 50px;
+  }
+}
+
+.portlet[data-portlet="landing-fullclaro"]
+  .section[data-section="data-section"]
+  .fullClaro__features {
+  padding-bottom: 0;
 }
 
 section.section2
