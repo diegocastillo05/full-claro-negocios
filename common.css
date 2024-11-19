@@ -4607,7 +4607,7 @@ section.section6 .container .contentInfo .contentText h4 {
   }
   .portlet[data-portlet="landing-fullclaro"]::before {
     background-image: url("https://static.claro.com.pe/landings/havas/2024/fullclaro-negocios/assets/bg_degraded_mobile2.png");
-    background-image: url("https://www.claro.com.pe/assets/havas/landing-fullclaronegocios/assets/bg_degraded_mobile2v2.png");
+    background-image: url("https://www.claro.com.pe/assets/havas/landing-fullclaronegocios/assets/bg_degraded_mobile2v3.png");
   }
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
@@ -4762,7 +4762,8 @@ section.section6 .container .contentInfo .contentText h4 {
   }
   .portlet[data-portlet="landing-fullclaro"]::before {
     background-size: 100%;
-    top: -319px;
+    /*top: -319px;*/
+    top: -800px;
   }
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
@@ -4784,7 +4785,8 @@ section.section6 .container .contentInfo .contentText h4 {
   }
   .portlet[data-portlet="landing-fullclaro"]::before {
     background-size: 100%;
-    top: -235px;
+    /*top: -235px;*/
+    top: -450px;
   }
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
@@ -5626,7 +5628,8 @@ section.section6 .container .contentInfo .contentText h4 {
   }
   .portlet[data-portlet="landing-fullclaro"]::before {
     background-size: 500px;
-    top: -56px;
+    /*top: -56px;*/
+    top: -357px;
   }
   .portlet[data-portlet="landing-fullclaro"]
     .section[data-section="data-section"]
