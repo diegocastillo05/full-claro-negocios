@@ -1242,10 +1242,10 @@ body {
   .fullClaro__features__item
   .subtitle
   strong {
-  /*
   font-family: "AMX-Bold";
-  font-size: 32px;*/
   white-space: nowrap;
+  /*
+  font-size: 32px;*/
 }
 /*
 @media screen and (max-width: 1440px) {
@@ -5502,6 +5502,30 @@ section.section6 .container .contentInfo .contentText h4 {
   }
 }
 
+@media (max-width: 1024px) and (min-width: 501px) {
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__body__item__planes__item
+    .picture
+    svg {
+    max-width: 50px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__body__item__planes__item:nth-child(2)
+    svg {
+    width: 40px;
+    height: 40px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__body__item__planes__item:nth-child(3)
+    .picture
+    svg {
+    width: 33px;
+  }
+}
+
 @media (max-width: 900px) {
   .sectionheroCards .content .part2 .card2 p {
     font-size: 14px;
@@ -5522,6 +5546,16 @@ section.section6 .container .contentInfo .contentText h4 {
   }
   .sectionheroCards .container .swiper {
     padding: 0 40px;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__body__item:nth-child(1) {
+    display: none;
+  }
+  .portlet[data-portlet="landing-fullclaro"]
+    .section[data-section="data-section"]
+    .fullClaro__body__item:nth-child(2) {
+    height: 369px;
   }
 }
 
